@@ -4,7 +4,7 @@ require_once('../db_config.php');
 // global $dsn;
 // global $option;
 
-class Database{
+class Connect{
 
     private static $_conn ;
     private static $_dsn; 
@@ -79,7 +79,7 @@ class Database{
 
     public static function db_connect(){
 
-        $pdo = new Database();
+        $pdo = new self();
         return $pdo;
 
     }

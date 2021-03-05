@@ -6,9 +6,9 @@
 $credential = [
                 "DB_DRIVER"  => 'mysql',
                 "HOST"       => '127.0.0.1',
-                "DB_NAME"    => 'rocket_wings',
-                "DB_USER"    =>  'admin',
-                "DB_PASS"    =>  '123456',
+                "DB_NAME"    => 'sec_test',
+                "DB_USER"    =>  'root',
+                "DB_PASS"    =>  '',
                 "DB_CHARSET" => 'utf8'
 
 

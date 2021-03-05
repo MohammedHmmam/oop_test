@@ -1,8 +1,8 @@
 <?php
-require_once('Database.php');
+require_once('Connect.php');
 
 
-var_dump(Database::db_connect());
+var_dump(Connect::db_connect());
 
 
 
